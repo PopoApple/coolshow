@@ -1,4 +1,4 @@
-// pages/api/WXML/createSelectorQuery/index.js
+// pages/api/wxml/createSelectorQuery/index.js
 Page({
 
   /**

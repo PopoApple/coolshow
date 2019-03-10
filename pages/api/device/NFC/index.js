@@ -1,4 +1,4 @@
-// pages/api/device/NFC/index.js
+// pages/api/device/nfc/index.js
 Page({
 
   /**

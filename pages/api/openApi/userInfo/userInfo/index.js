@@ -1,4 +1,4 @@
-// pages/api/wxml/selectotQuery/index.js
+// pages/api/openApi/userInfo/userInfo/index.js
 Page({
 
   /**

@@ -88,9 +88,9 @@ Page({
           { id: 'canvasToTempFilePath', name: 'wx.canvasToTempFilePath' },
           { id: 'canvasPutImageData', name: 'wx.canvasPutImageData' },
           { id: 'canvasGetImageData', name: 'wx.canvasGetImageData' },
-          { id: 'CanvasContent', name: 'CanvasContent' },
-          { id: 'CanvasGradient', name: 'CanvasGradient' },
-          { id: 'Color', name: 'Color' },
+          { id: 'canvasContent', name: 'CanvasContent' },
+          { id: 'canvasGradient', name: 'CanvasGradient' },
+          { id: 'color', name: 'Color' },
         ]
       },
       {
@@ -105,8 +105,8 @@ Page({
           { id: 'getSavedFIleInfo', name: 'wx.getSavedFIleInfo' },
           { id: 'getFileSystemManager', name: 'wx.getFileSystemManager' },
           { id: 'getFileInfo', name: 'wx.getFileInfo' },
-          { id: 'FileSystemManage', name: 'FileSystemManage' },
-          { id: 'Stats', name: 'Stats' },
+          { id: 'fileSystemManage', name: 'FileSystemManage' },
+          { id: 'stats', name: 'Stats' },
         ]
       },
       {
@@ -142,7 +142,7 @@ Page({
           { id: 'bluetooth', name: '蓝牙' },
           { id: 'battery', name: '电量' },
           { id: 'clipboard', name: '剪贴板' },
-          { id: 'NFC', name: 'NFC' },
+          { id: 'nfc', name: 'NFC' },
           { id: 'network', name: '网络' },
           { id: 'screen', name: '屏幕' },
           { id: 'phone', name: '电话' },
@@ -156,12 +156,12 @@ Page({
         ]
       },
       {
-        id: 'Worker',
+        id: 'worker',
         name: 'Worker',
         open: false,
         pages: [
           { id: 'createWorker', name: 'wx.createWorker' },
-          { id: 'Worker', name: 'Worker' },
+          { id: 'worker', name: 'Worker' },
         ]
       },
       {
@@ -174,15 +174,15 @@ Page({
         ]
       },
       {
-        id: 'WXML',
+        id: 'wxml',
         name: 'WXML',
         open: false,
         pages: [
           { id: 'createSelectorQuery', name: 'wx.createSelectorQuery' },
           { id: 'createIntersectionObserver', name: 'wx.createIntersectionObserver' },
-          { id: 'IntersectionObserver', name: 'IntersectionObserver' },
-          { id: 'NodesRef', name: 'NodesRef' },
-          { id: 'SelectotQuery', name: 'SelectotQuery' },
+          { id: 'intersectionObserver', name: 'IntersectionObserver' },
+          { id: 'nodesRef', name: 'NodesRef' },
+          { id: 'selectotQuery', name: 'SelectotQuery' },
         ]
       },
     ]

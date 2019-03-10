@@ -1,5 +1,6 @@
 {
   "pages":[
+        
     "pages/component/index",
     "pages/api/index",
 
@@ -52,13 +53,11 @@
     "pages/api/basic/miniProgram/index",
     "pages/api/basic/timer/index",
     "pages/api/basic/debug/index",
-
     "pages/api/router/switchTab/index",
     "pages/api/router/reLaunch/index",
     "pages/api/router/redirectTo/index",
     "pages/api/router/navigateTo/index",
     "pages/api/router/navigateBack/index",
-
     "pages/api/interface/interactive/index",
     "pages/api/interface/nav/index",
     "pages/api/interface/tabBar/index",
@@ -69,7 +68,6 @@
     "pages/api/interface/customComponent/index",
     "pages/api/interface/menu/index",
     "pages/api/interface/window/index",
-
     "pages/api/media/map/index",
     "pages/api/media/image/index",
     "pages/api/media/video/index",
@@ -78,24 +76,20 @@
     "pages/api/media/realTimeAudioVideo/index",
     "pages/api/media/record/index",
     "pages/api/media/camera/index",
-
     "pages/api/location/openLocation/index",
     "pages/api/location/getLocation/index",
     "pages/api/location/chooseLocation/index",
-
     "pages/api/share/updateShareMenu/index",
     "pages/api/share/showShareMenu/index",
     "pages/api/share/hideShareMenu/index",
     "pages/api/share/getShareInfo/index",
-
     "pages/api/canvas/createCanvasContext/index",
     "pages/api/canvas/canvasToTempFilePath/index",
     "pages/api/canvas/canvasPutImageData/index",
     "pages/api/canvas/canvasGetImageData/index",
-    "pages/api/canvas/CanvasContent/index",
-    "pages/api/canvas/CanvasGradient/index",
-    "pages/api/canvas/Color/index",
-
+    "pages/api/canvas/canvasContent/index",
+    "pages/api/canvas/canvasGradient/index",
+    "pages/api/canvas/color/index",
     "pages/api/file/saveFile/index",
     "pages/api/file/removeSavedFile/index",
     "pages/api/file/openDocument/index",
@@ -103,13 +97,17 @@
     "pages/api/file/getSavedFIleInfo/index",
     "pages/api/file/getFileSystemManager/index",
     "pages/api/file/getFileInfo/index",
-    "pages/api/file/FileSystemManage/index",
+    "pages/api/file/fileSystemManage/index",
     "pages/api/file/Stats/index",
 
     "pages/api/openApi/login/index",
     "pages/api/openApi/miniProgramJump/index",
     "pages/api/openApi/accountInfo/index",
+
     "pages/api/openApi/userInfo/index",
+    "pages/api/openApi/userInfo/getUserInfo/index",
+    "pages/api/openApi/userInfo/userInfo/index",
+
     "pages/api/openApi/dataReport/index",
     "pages/api/openApi/dataAnalytics/index",
     "pages/api/openApi/payment/index",
@@ -120,7 +118,6 @@
     "pages/api/openApi/invocie/index",
     "pages/api/openApi/soterAuth/index",
     "pages/api/openApi/sport/index",
-
     "pages/api/device/iBeacon/index",
     "pages/api/device/wifi/index",
     "pages/api/device/contact/index",
@@ -128,7 +125,7 @@
     "pages/api/device/bluetooth/index",
     "pages/api/device/battery/index",
     "pages/api/device/clipboard/index",
-    "pages/api/device/NFC/index",
+    "pages/api/device/nfc/index",
     "pages/api/device/network/index",
     "pages/api/device/screen/index",
     "pages/api/device/phone/index",
@@ -139,23 +136,20 @@
     "pages/api/device/performance/index",
     "pages/api/device/scanCode/index",
     "pages/api/device/vibrate/index",
-
-    "pages/api/Worker/createWorker/index",
-    "pages/api/Worker/Worker/index",
-
+    "pages/api/worker/createWorker/index",
+    "pages/api/worker/worker/index",
     "pages/api/thirdPartyPlatform/getExtConfigSync/index",
     "pages/api/thirdPartyPlatform/getExtConfig/index",
-
-    "pages/api/WXML/createSelectorQuery/index",
-    "pages/api/WXML/createIntersectionObserver/index",
-    "pages/api/WXML/IntersectionObserver/index",
-    "pages/api/WXML/NodesRef/index",
-    "pages/api/WXML/SelectotQuery/index"
+    "pages/api/wxml/createSelectorQuery/index",
+    "pages/api/wxml/createIntersectionObserver/index",
+    "pages/api/wxml/intersectionObserver/index",
+    "pages/api/wxml/nodesRef/index",
+    "pages/api/wxml/selectotQuery/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "playground",
+    "navigationBarTitleText": "小程序实验基地",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

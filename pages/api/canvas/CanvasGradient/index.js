@@ -1,4 +1,4 @@
-// pages/api/canvas/CanvasGradient/index.js
+// pages/api/canvas/canvasGradient/index.js
 Page({
 
   /**

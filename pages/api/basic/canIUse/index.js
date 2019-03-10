@@ -1,6 +1,6 @@
 // pages/api/basic/canIUse/index.js
 Page({
-  keys: ['openBluetoothAdapter', 'showShareMenu', 'requestPayment'],
+  keys: ['login', 'openBluetoothAdapter', 'showShareMenu', 'requestPayment'],
   /**
    * 页面的初始数据
    */
@@ -12,9 +12,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({ results: this.keys.map(key => {
-      return { key, result: wx.canIUse(key) }
-    }) })
+    this.setData({
+      results: this.keys.map(key => {
+        return { key, result: wx.canIUse(key) }
+      })
+    })
   },
 
   /**

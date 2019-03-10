@@ -1,4 +1,4 @@
-// pages/api/WXML/IntersectionObserver/index.js
+// pages/api/wxml/intersectionObserver/index.js
 Page({
 
   /**

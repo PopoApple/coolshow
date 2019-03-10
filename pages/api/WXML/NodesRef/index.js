@@ -1,4 +1,4 @@
-// pages/api/WXML/NodesRef/index.js
+// pages/api/wxml/nodesRef/index.js
 Page({
 
   /**

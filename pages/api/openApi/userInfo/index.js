@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list: [
+      { id: 'getUserInfo', name: 'wx.getUserInfo' },
+      { id: 'userInfo', name: 'UserInfo' },
+    ],
   },
 
   /**

@@ -1,4 +1,4 @@
-// pages/api/file/FileSystemManage/index.js
+// pages/api/file/fileSystemManage/index.js
 Page({
 
   /**

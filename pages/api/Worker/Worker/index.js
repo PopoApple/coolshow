@@ -1,4 +1,4 @@
-// pages/api/Worker/Worker/index.js
+// pages/api/worker/worker/index.js
 Page({
 
   /**

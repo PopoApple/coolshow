@@ -1,4 +1,4 @@
-// pages/api/canvas/Color/index.js
+// pages/api/canvas/color/index.js
 Page({
 
   /**

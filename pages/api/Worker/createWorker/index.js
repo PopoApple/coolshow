@@ -1,4 +1,4 @@
-// pages/api/Worker/createWorker/index.js
+// pages/api/worker/createWorker/index.js
 Page({
 
   /**

@@ -1,4 +1,4 @@
-// pages/api/canvas/CanvasContent/index.js
+// pages/api/canvas/canvasContent/index.js
 Page({
 
   /**
