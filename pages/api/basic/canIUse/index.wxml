@@ -1,0 +1,4 @@
+<!--pages/api/basic/canIUse/index.wxml-->
+<block wx:for="{{results}}">
+  <view>{{item.key}} : {{item.result}}</view>
+</block>
