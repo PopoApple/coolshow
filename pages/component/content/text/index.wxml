@@ -1,2 +1,7 @@
-<!--pages/component/content/text/index.wxml-->
-<text>pages/component/content/text/index.wxml</text>
+<view class="btn-area">
+  <view class="body-view">
+    <text>{{text}}</text>
+    <button bindtap="add">add line</button>
+    <button bindtap="remove">remove line</button>
+  </view>
+</view>

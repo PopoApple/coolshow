@@ -1,1 +1,8 @@
-/* pages/component/form/radio/index.wxss */
+.radio-group {
+    border-bottom: 1px solid #ddd;
+}
+.radio {
+    display: block;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+}

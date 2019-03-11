@@ -1,2 +1,10 @@
-<!--pages/api/openApi/auth/index.wxml-->
-<text>pages/api/openApi/auth/index.wxml</text>
+<view>
+getSettingRes: {{ getSettingRes }}
+</view>
+<view>
+authorizeSucRes: {{ authorizeSucRes }}
+</view>
+<view>
+authorizeRes: {{ authorizeRes }}
+</view>
+<button open-type="getUserInfo">获取用户信息授权</button>

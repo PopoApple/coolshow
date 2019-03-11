@@ -1,66 +1,45 @@
-// pages/component/form/button/index.js
-Page({
-
-  /**
-   * 页面的初始数据
-   */
+var types = ['default', 'primary', 'warn']
+var pageObject = {
   data: {
-
+    defaultSize: 'default',
+    primarySize: 'default',
+    warnSize: 'default',
+    disabled: false,
+    plain: false,
+    loading: false
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  setDisabled: function (e) {
+    this.setData({
+      disabled: !this.data.disabled
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  setPlain: function (e) {
+    this.setData({
+      plain: !this.data.plain
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  setLoading: function (e) {
+    this.setData({
+      loading: !this.data.loading
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  onGotUserInfo: function (e) {
+    console.log(e.detail.errMsg)
+    console.log(e.detail.userInfo)
+    console.log(e.detail.rawData)
   },
+}
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
+for (var i = 0; i < types.length; ++i) {
+  (function (type) {
+    pageObject[type] = function (e) {
+      var key = type + 'Size'
+      var changedData = {}
+      changedData[key] =
+        this.data[key] === 'default' ? 'mini' : 'default'
+      this.setData(changedData)
+    }
+  })(types[i])
+}
 
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
-})
+Page(pageObject)

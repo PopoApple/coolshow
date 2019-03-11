@@ -1,1 +1,3 @@
-/* pages/component/media/image/index.wxss */
+.section__ctn{
+    text-align: center;
+}

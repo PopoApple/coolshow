@@ -5,14 +5,58 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    getSettingRes: null,
+    authorizeSucRes: null,
+    authorizeRes: null,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.getSetting({
+      success: (getSettingRes) => {
+        this.setData({
+          getSettingRes: JSON.stringify(getSettingRes),
+        })
+        //if (!getSettingRes.authSetting['scope.userInfo']) {
+          // wx.authorize({
+          //   scope: 'scope.userInfo',
+          //   success: (authorizeSucRes) => {
+          //     // 用户已经同意小程序使用录音功能，后续调用 wx.startRecord 接口不会弹窗询问
 
+          //     this.setData({
+          //       authorizeSucRes: JSON.stringify(authorizeSucRes),
+          //     })
+          //   },
+          //   complete: (authorizeRes) => {
+          //     this.setData({
+          //       authorizeRes: JSON.stringify(authorizeRes),
+          //     })
+          //   }
+          // })
+        //}
+      }
+    })
+  },
+
+  toAuth() {
+    console.log(123)
+    // wx.authorize({
+    //   scope: 'scope.userInfo',
+    //   success: (authorizeSucRes) => {
+    //     // 用户已经同意小程序使用录音功能，后续调用 wx.startRecord 接口不会弹窗询问
+
+    //     this.setData({
+    //       authorizeSucRes: JSON.stringify(authorizeSucRes),
+    //     })
+    //   },
+    //   complete: (authorizeRes) => {
+    //     this.setData({
+    //       authorizeRes: JSON.stringify(authorizeRes),
+    //     })
+    //   }
+    // })
   },
 
   /**

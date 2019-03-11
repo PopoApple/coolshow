@@ -1,2 +1,5 @@
-<!--pages/component/canvas/canvas/index.wxml-->
-<text>pages/component/canvas/canvas/index.wxml</text>
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <canvas canvas-id="canvas" class="canvas"></canvas>
+  </view>
+</view>

@@ -1,66 +1,58 @@
-// pages/component/media/live-pusher/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  onReady(res) {
+    this.ctx = wx.createLivePusherContext('pusher')
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  statechange(e) {
+    console.log('live-pusher code:', e.detail.code)
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  bindStart() {
+    this.ctx.start({
+      success: res => {
+        console.log('start success')
+      },
+      fail: res => {
+        console.log('start fail')
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  bindPause() {
+    this.ctx.pause({
+      success: res => {
+        console.log('pause success')
+      },
+      fail: res => {
+        console.log('pause fail')
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  bindStop() {
+    this.ctx.stop({
+      success: res => {
+        console.log('stop success')
+      },
+      fail: res => {
+        console.log('stop fail')
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  bindResume() {
+    this.ctx.resume({
+      success: res => {
+        console.log('resume success')
+      },
+      fail: res => {
+        console.log('resume fail')
+      }
+    })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  bindSwitchCamera() {
+    this.ctx.switchCamera({
+      success: res => {
+        console.log('switchCamera success')
+      },
+      fail: res => {
+        console.log('switchCamera fail')
+      }
+    })
   }
 })

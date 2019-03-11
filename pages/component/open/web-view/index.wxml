@@ -1,2 +1,5 @@
-<!--pages/component/open/web-view/index.wxml-->
-<text>pages/component/open/web-view/index.wxml</text>
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="https://mp.weixin.qq.com/"></web-view>
+  </view>
+</view>

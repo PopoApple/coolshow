@@ -1,66 +1,35 @@
-// pages/component/media/camera/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  onLoad() {
+    this.ctx = wx.createCameraContext()
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  takePhoto() {
+    this.ctx.takePhoto({
+      quality: 'high',
+      success: (res) => {
+        this.setData({
+          src: res.tempImagePath
+        })
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  startRecord() {
+    this.ctx.startRecord({
+      success: (res) => {
+        console.log('startRecord')
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  stopRecord() {
+    this.ctx.stopRecord({
+      success: (res) => {
+        this.setData({
+          src: res.tempThumbPath,
+          videoSrc: res.tempVideoPath
+        })
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  error(e) {
+    console.log(e.detail)
   }
 })

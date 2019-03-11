@@ -1,2 +1,13 @@
-<!--pages/component/container/cover-view/index.wxml-->
-<text>pages/component/container/cover-view/index.wxml</text>
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <canvas canvas-id="canvas" class="canvas">
+      <cover-view class="cover-view">cover-view</cover-view>
+      <cover-view>
+        <cover-view class="cover-view" bindtap="tap1">cover-view</cover-view>
+      </cover-view>
+      <cover-view class="image-cnt">
+        <cover-image class="cover-image" bindtap="tap1" src="../../../../image/location.png" />
+      </cover-view>
+    </canvas>
+  </view>
+</view>

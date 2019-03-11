@@ -29,6 +29,8 @@
     "pages/component/form/textarea/index",
 
     "pages/component/nav/navigator/index",
+    "pages/component/nav/navigator/navigate/navigate",
+    "pages/component/nav/navigator/redirect/redirect",
     "pages/component/nav/functional-page-navigator/index",
 
     "pages/component/media/audio/index",
