@@ -1,1 +1,24 @@
 /* pages/component/container/scroll-view/index.wxss */
+.scroll-view-item {
+  height: 200px;
+} 
+.bc_green {
+  background: green;
+}
+.bc_red {
+  background: red;
+}
+.bc_yellow {
+  background: yellow;
+}
+.bc_blue {
+  background: blue;
+}
+.scroll-view_H_inner {
+  display: flex;
+  width: 1200px;
+}
+.scroll-view-item_H {
+  width: 300px;
+  height: 200px;
+}

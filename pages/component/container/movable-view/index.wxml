@@ -2,7 +2,7 @@
   <view class="page-section">
     <view class="page-section-title">movable-view区域小于movable-area</view>
     <movable-area>
-      <movable-view x="{{x}}" y="{{y}}" direction="all">text</movable-view>
+      <movable-view x="{{x}}" y="{{y}}" direction="all" bindtouchmove="onTouchmove" bindhtouchmove="onHtouchmove">text</movable-view>
     </movable-area>
   </view>
   <view class="btn-area">
@@ -33,7 +33,7 @@
   <view class="page-section">
     <view class="page-section-title">可超出边界</view>
     <movable-area>
-      <movable-view direction="all" out-of-bounds>text</movable-view>
+      <movable-view direction="all" out-of-bounds bindchange="onOutOfBoundsChange">text</movable-view>
     </movable-area>
   </view>
 

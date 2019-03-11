@@ -35,5 +35,15 @@ Page({
     this.setData({
       duration: e.detail.value
     })
+  },
+  onSwiperChange: (e) => {
+    console.log('onSwiperChange', e)
+  },
+  onTransition: (e) => {
+    console.log('onTransition', e)
+  },
+  onAnimationfinish: (e) => {
+    console.log('onAnimationfinish', e)
   }
+  
 })

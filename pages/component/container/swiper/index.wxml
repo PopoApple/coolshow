@@ -2,10 +2,18 @@
   <view class="page-body">
     <view class="page-section page-section-spacing swiper">
       <swiper
+        indicator-color="rgba(0, 255, 255, .3)"
+        indicator-active-color="rgb(0, 255, 255)"
+        current-item-id="demo-text-2"
         indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px"
+        display-multiple-items="2"
+        bindchange="onSwiperChange"
+        bindtransition="onTransition"
+        bindanimationfinish="onAnimationfinish"
+      >
         <block wx:for="{{background}}" wx:key="*this">
-          <swiper-item>
+          <swiper-item item-id="{{item}}">
             <view class="swiper-item {{item}}"></view>
           </swiper-item>
         </block>

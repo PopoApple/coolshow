@@ -1,13 +1,21 @@
 <view class="page-body">
+  <view>
+  {{'<cover-view/>内只能嵌套<cover-view/> <cover-image/> <button/> <navigator/> <ad/>，image 标签的子节点树在真机上都会被忽略'}} 
+  </view>
   <view class="page-body-wrapper">
-    <canvas canvas-id="canvas" class="canvas">
-      <cover-view class="cover-view">cover-view</cover-view>
-      <cover-view>
-        <cover-view class="cover-view" bindtap="tap1">cover-view</cover-view>
-      </cover-view>
-      <cover-view class="image-cnt">
-        <cover-image class="cover-image" bindtap="tap1" src="../../../../image/location.png" />
-      </cover-view>
-    </canvas>
+    <map
+      id="myMap"
+      style="width: 100%; height: 500px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+    <view class="view">view</view>
+    <cover-view class="cover-view" bindtap="tap1">cover-view</cover-view>
+    <cover-view class="cover-view-image" bindtap="tap1">
+      <image style="width: 200px; height: 200px; background-color: #eeeeee;" src="../../../../image/location.png"></image>
+    </cover-view>
   </view>
 </view>

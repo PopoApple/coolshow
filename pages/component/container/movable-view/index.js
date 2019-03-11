@@ -20,5 +20,14 @@ Page({
   },
   onScale(e) {
     console.log(e.detail)
+  },
+  onOutOfBoundsChange: e => {
+    console.log('onOutOfBoundsChange', e)
+  },
+  onTouchmove: e => {
+    //console.log('onTouchmove', e)
+  },
+  onHtouchmove: e => {
+    console.log('onHtouchmove', e)
   }
 })
