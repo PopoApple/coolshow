@@ -7,3 +7,16 @@
 .bc_green {background: green;width:100px; height: 100px;}
 .bc_red {background: red;width:100px; height: 100px;}
 .bc_blue {background: blue;width:100px; height: 100px;}
+
+.item {
+  background: goldenrod;width:100px; height: 100px;
+}
+.item-hover {
+  background: gray;
+}
+.parent-item {
+  background: darkcyan;
+}
+.parent-item-hover {
+  background: lavender;
+}

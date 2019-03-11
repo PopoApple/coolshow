@@ -14,3 +14,9 @@
     <view class="flex-item bc_blue">3</view>
   </view>
 </view>
+<view class="section parent-item" hover-class="parent-item-hover" bindtap="onParentTap">
+  <view class="section__title">
+  hover-class、hover-stop-propagation、hover-start-time、
+  </view>
+  <view hover-class="item-hover" class="item" hover-start-time="1000" hover-stay-time="3000" bindtap="onTap" hover-stop-propagation/>
+</view>
