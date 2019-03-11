@@ -9,6 +9,6 @@
       covers="{{covers}}"
       show-location
     ></map>
-    <cover-image class="cover-image" bindtap="tap1" src="../../../../image/location.png" />
+    <cover-image class="cover-image" bindtap="onTap" src="../../../../image/location.png" bindload="onLoad" binderror="onError" />
   </view>
 </view>

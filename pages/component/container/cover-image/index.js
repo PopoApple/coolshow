@@ -1,4 +1,13 @@
 Page({
+  onTap () {
+    console.log('onTap')
+  },
+  onLoad(e) {
+    console.log('onLoad', e)
+  },
+  onError() {
+    console.log('onError')
+  },
   data: {
     latitude: 23.099994,
     longitude: 113.324520,
