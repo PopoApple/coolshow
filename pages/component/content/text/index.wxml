@@ -1,6 +1,17 @@
 <view class="btn-area">
   <view class="body-view">
-    <text>{{text}}</text>
+    <view>
+      <text>{{text}}</text>
+    </view>
+    <view>
+      <text selectable>可   选中</text>
+    </view>
+    <view>
+      <text space="emsp">有   空格&nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;</text>
+    </view>
+    <view>
+      <text decode>解码&nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;</text>
+    </view>
     <button bindtap="add">add line</button>
     <button bindtap="remove">remove line</button>
   </view>

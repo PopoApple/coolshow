@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "fold": "/components/fold/index",
+    "list": "/components/list/index"
+  }
 }
