@@ -3,7 +3,7 @@
  * Copyright 2017 Tencent, Inc.
  * Licensed under the MIT license
  */
-@import '../../style/weui.wxss';
+
 .weui-flex {
   -webkit-box-align: center;
   -webkit-align-items: center;
