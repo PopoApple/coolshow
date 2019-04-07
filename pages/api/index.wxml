@@ -1,26 +1,8 @@
-<wxs module="m1">
-  var getListData = function (item) {
-    var pages = item.pages
-    var data = []
-    for (var i = 0; i < pages.length; i++) {
-      var page = pages[i]
-      var name = page.name
-      var id = page.id
-      data.push({
-        id: id,
-        content: name,
-        url: item.id + '/' + id + '/index'
-      })
-    }
-    return data
-  }
-  module.exports.getListData = getListData
-</wxs>
 <view>
   <fold list="{{list}}">
     <block wx:for="{{list}}" wx:key="id">
       <view slot="{{item.id}}">
-        <list list="{{m1.getListData(item)}}"></list>
+        <list list="{{item.pages}}"></list>
       </view>
     </block>
   </fold>
