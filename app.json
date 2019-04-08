@@ -1,6 +1,6 @@
 {
   "pages":[
-        
+    "pages/wux/index",
     "pages/component/index",
     "pages/api/index",
 
@@ -146,7 +146,11 @@
     "pages/api/wxml/createIntersectionObserver/index",
     "pages/api/wxml/intersectionObserver/index",
     "pages/api/wxml/nodesRef/index",
-    "pages/api/wxml/selectotQuery/index"
+    "pages/api/wxml/selectotQuery/index",
+
+    "pages/wux/basic/Button/index",
+    "pages/wux/feedback/ActionSheet/index",
+    "pages/wux/dataView/Badge/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -163,6 +167,10 @@
       {
         "pagePath": "pages/api/index",
         "text": "API"
+      },
+      {
+        "pagePath": "pages/wux/index",
+        "text": "wux组件"
       }
     ],
     "position": "top" 

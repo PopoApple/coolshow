@@ -1,0 +1,9 @@
+<view>
+  <fold list="{{list}}">
+    <block wx:for="{{list}}" wx:key="id">
+      <view slot="{{item.id}}">
+        <list list="{{item.pages}}"></list>
+      </view>
+    </block>
+  </fold>
+</view>

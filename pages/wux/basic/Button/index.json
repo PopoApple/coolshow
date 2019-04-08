@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button",
+  "usingComponents": {
+    "wux-icon": "/wux-components/icon/index",
+    "wux-button": "/wux-components/button/index"
+  }
+}
