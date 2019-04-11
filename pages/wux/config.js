@@ -5,6 +5,7 @@ module.exports = [
     open: false,
     pages: [
       { id: 'Button', name: 'Button按钮' },
+      { id: 'Utility', name: 'Utility工具类' },
     ]
   },
   {
@@ -21,6 +22,7 @@ module.exports = [
     open: false,
     pages: [
       { id: 'Badge', name: 'Badge徽章' },
+      { id: 'Card', name: 'Card卡片' },
     ]
   },
 ]

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Card",
+  "usingComponents": {
+    "wux-card": "/wux-components/card/index",
+    "wux-wing-blank": "/wux-components/wing-blank/index"
+  }
+}

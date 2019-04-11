@@ -148,9 +148,11 @@
     "pages/api/wxml/nodesRef/index",
     "pages/api/wxml/selectotQuery/index",
 
+    "pages/wux/basic/Utility/index",
     "pages/wux/basic/Button/index",
     "pages/wux/feedback/ActionSheet/index",
-    "pages/wux/dataView/Badge/index"
+    "pages/wux/dataView/Badge/index",
+    "pages/wux/dataView/Card/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
