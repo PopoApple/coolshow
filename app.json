@@ -1,21 +1,19 @@
 {
-  "pages":[
+  "pages": [
+    "pages/others/index",
     "pages/wux/index",
     "pages/component/index",
     "pages/api/index",
-
     "pages/component/container/view/index",
     "pages/component/container/scroll-view/index",
     "pages/component/container/swiper/index",
     "pages/component/container/movable-view/index",
     "pages/component/container/cover-view/index",
     "pages/component/container/cover-image/index",
-
     "pages/component/content/icon/index",
     "pages/component/content/text/index",
     "pages/component/content/rich-text/index",
     "pages/component/content/progress/index",
-
     "pages/component/form/button/index",
     "pages/component/form/checkbox/index",
     "pages/component/form/form/index",
@@ -27,28 +25,22 @@
     "pages/component/form/slider/index",
     "pages/component/form/switch/index",
     "pages/component/form/textarea/index",
-
     "pages/component/nav/navigator/index",
     "pages/component/nav/navigator/navigate/navigate",
     "pages/component/nav/navigator/redirect/redirect",
     "pages/component/nav/functional-page-navigator/index",
-
     "pages/component/media/audio/index",
     "pages/component/media/image/index",
     "pages/component/media/video/index",
     "pages/component/media/camera/index",
     "pages/component/media/live-player/index",
     "pages/component/media/live-pusher/index",
-
     "pages/component/map/map/index",
-
     "pages/component/canvas/canvas/index",
-
     "pages/component/open/open-data/index",
     "pages/component/open/web-view/index",
     "pages/component/open/ad/index",
     "pages/component/open/offcial-account/index",
-
     "pages/api/basic/canIUse/index",
     "pages/api/basic/system/index",
     "pages/api/basic/update/index",
@@ -101,15 +93,12 @@
     "pages/api/file/getFileInfo/index",
     "pages/api/file/fileSystemManage/index",
     "pages/api/file/Stats/index",
-
     "pages/api/openApi/login/index",
     "pages/api/openApi/miniProgramJump/index",
     "pages/api/openApi/accountInfo/index",
-
     "pages/api/openApi/userInfo/index",
     "pages/api/openApi/userInfo/getUserInfo/index",
     "pages/api/openApi/userInfo/userInfo/index",
-
     "pages/api/openApi/dataReport/index",
     "pages/api/openApi/dataAnalytics/index",
     "pages/api/openApi/payment/index",
@@ -147,18 +136,20 @@
     "pages/api/wxml/intersectionObserver/index",
     "pages/api/wxml/nodesRef/index",
     "pages/api/wxml/selectotQuery/index",
-
     "pages/wux/basic/Utility/index",
     "pages/wux/basic/Button/index",
     "pages/wux/feedback/ActionSheet/index",
     "pages/wux/dataView/Badge/index",
-    "pages/wux/dataView/Card/index"
+    "pages/wux/dataView/Card/index",
+
+    "pages/others/weixinSI/index",
+    "pages/others/weixinSI/lottie"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小程序实验基地",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
@@ -173,8 +164,19 @@
       {
         "pagePath": "pages/wux/index",
         "text": "Wux组件"
+      },
+      {
+        "pagePath": "pages/others/index",
+        "text": "其他"
       }
     ],
-    "position": "top" 
+    "position": "top"
+  },
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+      "WechatSI": {
+      "version": "0.2.3",
+      "provider": "wx069ba97219f66d99"
+    }
   }
 }

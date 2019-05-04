@@ -1,0 +1,3 @@
+<view class="wrap">
+  <list list="{{pages}}"></list>
+</view>
