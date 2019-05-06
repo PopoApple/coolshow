@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/others/lottie/index",
     "pages/others/index",
     "pages/wux/index",
     "pages/component/index",
@@ -142,8 +143,7 @@
     "pages/wux/dataView/Badge/index",
     "pages/wux/dataView/Card/index",
 
-    "pages/others/weixinSI/index",
-    "pages/others/weixinSI/lottie"
+    "pages/others/weixinSI/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
