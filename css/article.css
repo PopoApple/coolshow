@@ -1,0 +1,175 @@
+#popWin .headbar {
+    top: 0px;
+    z-index: 3;
+}
+#popWin .loading,
+#popWin .tips{
+    background-color: rgb(41,170,227);
+}
+#popWin .swiper-container{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow: hidden;
+    background-color: rgb(41,170,227);
+}
+.article_info {
+	margin-bottom:10px;
+}
+.article_time{
+	margin-right:10px;
+}
+
+
+.bluemp_block_article_options_readnum{
+	color:inherit;
+	margin-right: 10px;
+}
+.bluemp_block_article_options_praise{
+	color:inherit;
+}
+.bluemp_block_article_options_praiseIconOn{
+    background: url(../images/flower_fill.png) center no-repeat;    
+    background-size: 21px 21px;
+    vertical-align: text-bottom;
+}
+.bluemp_block_article_options_praiseIconOff{
+    background: url(../images/flower.png) center no-repeat;
+    background-size: 21px 21px;
+    vertical-align: text-bottom;
+}
+.bluemp_block_article_options_comment_on {
+    background-color: rgb(250,144,22);
+}
+.bluemp_block_article_options_comment_off{
+	color:#fff;
+}
+.bluemp_block_article_options_comment_on:active {
+    background-color: rgb(210,114,0);
+}
+.bluemp_block_article_options_comment_on a:active{
+	color:#fff;
+}
+.vote_subject_content{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 30px;
+}
+.bluemp_block_article_ARewardIconSpan_BgColor1:active{
+	background-color: #c15900;
+}
+.Hot2_n_p {
+	width:100%;
+    line-height: inherit; 
+    padding: 6px 0;
+    background: rgba(255,255,255,.25);
+    background-image: url(../images/pencil.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left 8px top 8px;
+}
+.Hot2_n p img {
+    display:none;
+}
+.Hot2_n_p2{
+	color:#fff;
+	border-bottom: 1px solid rgba(255,255,255,.6);
+}
+.Hot2_n_p3{
+	color:#fff;
+}
+.question_content_text{
+	font-weight:normal;
+}
+.Hot2_n.answer_contents {
+    margin-top: 5px;
+}
+.bluemp_block_article_reply_listTop {
+    padding: 8px 10px 5px 10px;
+    background-color: rgba(255,255,255,.25);
+    font-size: 14px;
+}
+input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+}
+.bluemp_block_article_reply_blockContent{
+	padding:10px 0;
+}
+.bluemp_block_article_reply_replyContent {
+	width:inherit;
+    padding:0;
+    color:#fff;
+    margin-top: 5px;
+}
+img.face {
+    vertical-align: middle;
+}
+.bluemp_block_article_reply_block_userPhoto {
+    padding:0;
+    margin:3px 0 0 0;
+}
+.bluemp_block_article_reply_block_userPhoto img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+ul.bluemp_block_article_reply_block_userInfo {
+    padding: 0;
+    margin: 2px 18px;
+    width: initial;
+}
+.bluemp_block_article_reply_block_userNickname {
+    width: inherit;
+}
+.bluemp_block_article_reply_block_replyTime {
+    padding: 5px 0;
+    color:#fff;
+}
+.bluemp_block_article_reply_block_userNickname a{
+	vertical-align: middle;
+}
+.bluemp_block_article_reply_block_userLevel {
+    height: 15px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 2px;
+}
+.bluemp_block_article_reply_praiseIconOff {
+    background: url(../images/heart.png) center no-repeat;
+    background-size: 14px 14px;
+}
+.bluemp_block_article_reply_praiseIconOn {
+    background: url(../images/heart_fill.png) center no-repeat;
+    background-size: 14px 14px;
+}
+.bluemp_block_article_reply_replyOption {
+    height: 24px;
+}
+.bluemp_block_article_reply_praise {
+    padding: 0;
+}
+.bluemp_block_article_reply_praiseCount {
+    color: #fff;
+}
+.bluemp_block_article_reply_delete {
+    padding-top: 7px;
+    line-height: 12px;
+    height: 24px;
+    font-size: 12px;
+    color: rgba(255,255,255,.8);
+}
+input.dytp_tj_btn.vote_submit_btn {
+    border: none;
+}
+.dyjd_num_span{
+	color:#fff;
+}
+.bluemp_block_article_ARewardText{
+	color:#fff;
+}
+.bluemp_block_article_ARewardText2{
+	color:#fff;
+}

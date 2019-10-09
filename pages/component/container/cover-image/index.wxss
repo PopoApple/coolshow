@@ -1,9 +1,0 @@
-
-
-.cover-image {
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  top: 190px;
-  left: 50px;
-}

@@ -1,0 +1,47 @@
+<extend name="Public:newbase" />
+<block name="main">
+	<css file="/Theme/CoolShow/css/idangerous.swiper.css" />
+	<css file="/Theme/CoolShow/css/common.css" />
+	<css file="/Theme/CoolShow/css/article.css" />
+	<div id="popWin">
+			<div class="headbar">
+				<div id="homeBtn" class="icon_btn goback"></div>
+			</div>
+			<div class="swiper-container swiper-free-mode">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-slide-visible swiper-slide-active">
+						<div class="slide-inner">
+							<div class="article_detail">
+								<h3 class="article_title"></h3>
+								<div class="article_info">
+									<span class="article_time"></span>
+									<span class="article_author"></span>
+								</div>
+								<div class="article_cover image_single none"></div>
+								<div class="article_summary none"></div>
+								<div class="article_content"></div>
+							</div>
+							<div class="bluemp_block_article_options"></div>
+							<div class="wz_txt article_vote_container" style="margin-top:1em"></div>
+							<div class="bluemp_block_article_reply_list"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="loading none" id="loading_99">
+				<div class="mui-spinner mui-spinner-white"></div>
+			</div>
+			<div class="tips none" id="tips_99">
+				<div class="alert_img"></div>
+				<div class="alert_txt">暂无内容</div>
+			</div>
+		</div>
+		<div class="tips none" id="tips_0">
+			<div class="alert_img"></div>
+			<div class="alert_txt" id="alert_txt_0">暂无内容</div>
+		</div>
+	<js file="/Theme/CoolShow/js/idangerous.swiper-2.1.min.js" />
+	<js file="/Theme/CoolShow/js/common.js" />
+	<js file="/Theme/CoolShow/js/detail.js" />
+	<js file="/Theme/CoolShow/js/article.js" />
+</block>

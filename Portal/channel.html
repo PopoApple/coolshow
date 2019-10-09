@@ -1,0 +1,87 @@
+<extend name="Public:newbase" />
+<block name="main">
+	<css file="/Theme/CoolShow/css/idangerous.swiper.css" />
+	<css file="/Theme/CoolShow/css/common.css" />
+	<css file="/Theme/CoolShow/css/channel.css" />
+	<css file="/Theme/CoolShow/css/article.css" />
+	<div class="fade none"></div>
+		<div id="popWin" class="none">
+			<div class="headbar">
+				<a href="javascript:closeDetail();" class="icon_btn goback"></a>
+			</div>
+			<div class="swiper-container swiper-free-mode">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-slide-visible swiper-slide-active">
+						<div class="slide-inner">
+							<div class="article_detail">
+								<h3 class="article_title"></h3>
+								<div class="article_info">
+									<span class="article_time"></span>
+									<span class="article_author"></span>
+								</div>
+								<div class="article_cover image_single none"></div>
+								<div class="article_summary none"></div>
+								<div class="article_content"></div>
+							</div>
+							<div class="bluemp_block_article_options"></div>
+							<div class="wz_txt article_vote_container" style="margin-top:1em"></div>
+							<div class="bluemp_block_article_reply_list"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="loading none" id="loading_99">
+				<div class="mui-spinner mui-spinner-white"></div>
+			</div>
+			<div class="tips none" id="tips_99">
+				<div class="alert_img"></div>
+				<div class="alert_txt">暂无内容</div>
+			</div>
+		</div>
+		<header class="headbar">
+			<a href="#" class="icon_btn gohome"></a>
+		</header>
+		<div class="swiper-container swiper-parent">
+			<div class="swiper-wrapper">
+				<!--Menu page-->
+				<div id="page_0" class="swiper-slide sliderbg_menu swiper-slide-visible swiper-slide-active">
+					<div class="swiper-container swiper-free-mode">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide swiper-slide-visible swiper-slide-active">
+								<div class="slide-inner">
+									<div id="titleBox" class="clearfix">
+										<div id="logo" class="none">
+											<img src="images/logo4.png" alt="" />
+										</div>
+										<div id="title" class="none">酷秀</div>
+									</div>
+									<div class="clearfix">
+										<div class="list_left">
+										</div>
+										<div class="list_right">
+										</div>
+									</div>
+									<div id="copyright" class="none"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--End of pages-->
+			</div>
+			<div class="pagination none">
+				<span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
+			</div>
+		</div>
+		<div class="loading none" id="loading_0">
+			<div class="mui-spinner mui-spinner-white"></div>
+		</div>
+		<div class="tips none" id="tips_0">
+			<div class="alert_img"></div>
+			<div class="alert_txt" id="alert_txt_0">暂无内容</div>
+		</div>
+	<js file="/Theme/CoolShow/js/idangerous.swiper-2.1.min.js" />
+	<js file="/Theme/CoolShow/js/common.js" />
+	<js file="/Theme/CoolShow/js/detail.js" />
+	<js file="/Theme/CoolShow/js/channel.js" />
+</block>
